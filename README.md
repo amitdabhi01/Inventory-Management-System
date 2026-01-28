@@ -5,7 +5,7 @@ A simple and responsive Inventory Management System built using React, Redux Too
 🚀 Live Demo
 
 👉 Live Website:
-https://inventory-management-syetem.netlify.app/
+https://invetory-management-syetem.netlify.app/
 
 🛠️ Tech Stack
 
