@@ -1,16 +1,56 @@
-# React + Vite
+📦 Inventory Management System (React + Redux Toolkit)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Inventory Management System built using React, Redux Toolkit, and Vite. This app allows users to add, manage, and view product details like name, price, quantity, and category.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 Live Website:
+https://inventory-management-syetem.netlify.app/
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚛️ React.js
 
-## Expanding the ESLint configuration
+🧰 Redux Toolkit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚡ Vite
+
+🎨 CSS
+
+🌐 Netlify (Deployment)
+
+✨ Features
+
+✅ Add new products
+✅ Store products using Redux
+✅ View product list
+✅ Responsive UI
+✅ Simple and clean design
+
+📂 Project Structure
+src/
+<br/>
+├── assets/
+<br/>
+├── Components/
+<br/>
+│   ├── ProductForm.jsx
+<br/>
+│   └── ProductList.jsx
+<br/>
+├── feature/
+<br/>
+│   └── product/
+<br/>
+│       └── productSlice.js
+<br/>
+├── store/
+<br/>
+│   └── store.js
+<br/>
+├── App.jsx
+<br/>
+├── main.jsx
+<br/>
+└── index.css
+<br/>
